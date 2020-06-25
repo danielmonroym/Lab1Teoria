@@ -71,7 +71,7 @@ public class Lab1Teoria {
                 System.out.println("Estado q0 --> 0 q0");
                 System.out.println("-------------------");
                 contador++;
-                q0(); //Transiciones si vale 'a' se mantenga en el estado q0
+                q0(); //Transiciones si vale '0' se mantenga en el estado q0
 
             } else if (caracteres[contador] == '1') {
                 System.out.println("Estado q0 --> 1 q1");
